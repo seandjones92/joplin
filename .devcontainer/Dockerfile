@@ -9,7 +9,7 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install --no-install-recommends libnss3 libsecret-1-dev \
     libx11-xcb-dev libx11-dev libxcomposite-dev libxcursor-dev libxdamage-dev \
     libxi-dev libxtst-dev libdbus-1-dev librust-gdk-pixbuf-sys-dev libxss-dev \
-    libasound2-dev
+    libasound2-dev libgtk-3-dev
 
 # [Optional] Uncomment if you want to install an additional version of node using nvm
 # ARG EXTRA_NODE_VERSION=10
